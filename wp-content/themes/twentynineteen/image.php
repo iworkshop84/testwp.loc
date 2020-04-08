@@ -15,8 +15,7 @@ get_header();
 
 			<?php
 				// Start the loop.
-			while ( have_posts() ) :
-				the_post();
+			while ( have_posts() ) : the_post();
 				?>
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

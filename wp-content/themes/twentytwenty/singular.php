@@ -16,6 +16,7 @@ get_header();
 
 	<?php
 
+
 	if ( have_posts() ) {
 
 		while ( have_posts() ) {
@@ -31,4 +32,4 @@ get_header();
 
 <?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
 
-<?php get_footer(); ?>
+<?php get_footer('my'); ?>
